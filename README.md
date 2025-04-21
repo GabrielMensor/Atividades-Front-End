@@ -9,7 +9,7 @@ Este repositório é um espaço para **aprendizado**, **prática** e **evoluçã
 
 ## 📁 Estrutura do Repositório
 
-Cada pasta representa um exercício ou mini-projeto individual.
+Cada pasta representa um exercício individual.
 O nome da pasta indica o propósito ou funcionalidade principal daquele exercício.
 
 ```bash
@@ -18,12 +18,25 @@ O nome da pasta indica o propósito ou funcionalidade principal daquele exercíc
 └── ...
 ```
 
+---
+
+## 🔍 Breve Resumo dos Projetos
+
+### ex01-chat
+
+Foi proposto que fosse feito uma página de um chat online, apenas com HTML e CSS
+
+### ex02-chat
+
+Usando como base o projeto anterior, foi pedido que se adicionasse uma camada de JavaScript puro alguns procedimentos
+
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
 - HTML5
 - CSS3
 - JavaScript Vanilla
-- (Adicione aqui outras ferramentas, como Bootstrap, SASS, etc.)
 
 ---
 
@@ -44,4 +57,4 @@ cd nome-do-repositorio/nome-da-pasta
 ## 👨‍💻 Em Andamento
 
 Este repositório está em constante atualização!
-Novos exercícios serão adicionados conforme avanços nos estudos e práticas de front-end
+Novos exercícios serão adicionados conforme avanços na matéria de front-end
