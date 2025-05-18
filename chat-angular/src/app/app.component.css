@@ -46,6 +46,7 @@
   }
 
   .messages-list {
+      height: 68vh;
       padding: 10px;
       border-radius: 10px;
       background-color: #f1f1f1;
@@ -53,18 +54,19 @@
       overflow-y: auto;
       border: 1px solid #ccc;
       scroll-snap-align: start;
+      scroll-behavior: smooth;
   }
 
   #form-chat-send {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       padding: 10px;
       border-top: 1px solid #5c5c5c;
       justify-content: space-between;
   }
 
   #message {
-      width: 75%;
+      width: 73%;
       padding: 10px;
       border-radius: 10px;
   }

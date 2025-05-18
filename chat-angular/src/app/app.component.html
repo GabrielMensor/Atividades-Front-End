@@ -3,7 +3,7 @@
     <header>
       <h2>Atendimento on-line</h2>
     </header>
-    <div class="messages-list">
+    <div #messagesList class="messages-list"> <!-- Div das mensagens com referência para o ViewChild que está no app.component.ts -->
       <div class="message-item">
         <div class="msg-user"><strong>Atendente diz:</strong></div>
         <div class="msg-chat">Olá Sr. Blabla</div>
@@ -28,10 +28,15 @@
         <div class="msg-user"><strong>Atendente diz:</strong></div>
         <div class="msg-chat">Blabla Blaaba </div>
       </div>
+      
+      <div *ngFor="let msg of messages" class="message-item message-user">
+        <div class="msg-user"><strong>Você diz:</strong></div>
+        <div class="msg-chat">{{ msg }}</div>
+      </div>
     </div>
     <form id="form-chat-send" action="" method="post">
-      <input type="text" id="message" name="message" placeholder="Digite sua mensagem">
-      <button type="submit" id="submit-button">ENVIAR</button>
+      <input [(ngModel)]="message" type="text" id="message" name="message" placeholder="Digite sua mensagem">
+      <button (click)="sendMessage()" id="submit-button">ENVIAR</button>
     </form>
   </div>
 </main>
