@@ -1,7 +1,7 @@
 # 🚀 Atividades de Front-end
 
 Bem-vindo ao meu repositório de **atividades de front-end**!  
-Aqui você encontrará uma coleção de pequenos projetos desenvolvidos com foco em **HTML**, **CSS** e/ou **JavaScript**, organizados por pastas; que desenvolvo ao longo da 3ª fase de Emgenharia da Computação, na matéria de Front-End, na Unisatc.
+Aqui você encontrará uma coleção de pequenos projetos desenvolvidos com foco em **HTML**, **CSS**, **JavaScript** e/ou **Angular** organizados por pastas; que desenvolvo ao longo da 3ª fase de Emgenharia da Computação, na matéria de Front-End, na Unisatc.
 
 Este repositório é um espaço para **aprendizado**, **prática** e **evolução contínua** no desenvolvimento web.
 
@@ -13,6 +13,7 @@ Cada pasta representa um exercício individual.
 O nome da pasta indica o propósito ou funcionalidade principal daquele exercício.
 
 ```bash
+├── chat-angualar/
 ├── ex01-chat/
 ├── ex02-chat/
 └── ...
@@ -21,6 +22,10 @@ O nome da pasta indica o propósito ou funcionalidade principal daquele exercíc
 ---
 
 ## 🔍 Breve Resumo dos Projetos
+
+### chat-angular
+
+Foi proposto que fosse feito uma página de um chat online (recriando os que foram criados nos dois primeiros exercícios) usando Angular
 
 ### ex01-chat
 
@@ -37,6 +42,7 @@ Usando como base o projeto anterior, foi pedido que se adicionasse uma camada de
 - HTML5
 - CSS3
 - JavaScript Vanilla
+- Angular
 
 ---
 
