@@ -1,167 +1,38 @@
-<style>
-  html {
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-
-  body,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ol,
-  ul {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
-  }
-
-  ol,
-  ul {
-    list-style: none;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  body {
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-  }
-
-  header {
-    padding: 5px;
-    border: 1px solid black;
-    background-color: white;
-    color: #070707;
-  }
-
-  #chat-screen {
-    width: 500px;
-    border: 1px solid black;
-    background-color: #ccc;
-  }
-
-  .messages-list .message-item {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
-  }
-
-  .msg-chat {
-    border-radius: 10px;
-    border: 1px solid black;
-    padding: 7px;
-    background-color: #070707;
-    color: white;
-  }
-
-  .messages-list .message-user .msg-chat {
-    background-color: rgb(0, 225, 0);
-    color: white;
-  }
-
-  .messages-list .message-user {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-
-  .messages-list {
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #f1f1f1;
-    max-height: 454px;
-    overflow-y: auto;
-    border: 1px solid #ccc;
-    scroll-snap-align: start;
-  }
-
-  #form-chat-send {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    border-top: 1px solid #5c5c5c;
-    justify-content: space-between;
-  }
-
-  #message {
-    width: 75%;
-    padding: 10px;
-    border-radius: 10px;
-  }
-
-  #submit-button {
-    width: 20%;
-    border-radius: 10px;
-    background-color: rgb(10, 139, 10);
-    color: #fff;
-    transition: all 0.75s ease;
-  }
-
-  #submit-button:hover {
-    cursor: pointer;
-    background-color: rgb(37, 164, 37);
-  }
-
-  #submit-button:active {
-    cursor: pointer;
-    background-color: rgb(107, 202, 107);
-  }
-</style>
-
 <main class="main">
-  <div class="content">
-    <div id="chat-screen">
-      <header>
-        <h2>Atendimento on-line</h2>
-      </header>
-      <div class="messages-list">
-        <div class="message-item">
-          <div class="msg-user"><strong>Atendente diz:</strong></div>
-          <div class="msg-chat">Olá Sr. Blabla</div>
-        </div>
-        <div class="message-item">
-          <div class="msg-user"><strong>Atendente diz:</strong></div>
-          <div class="msg-chat">Blabla blabla blabla?</div>
-        </div>
-        <div class="message-item message-user">
-          <div class="msg-user"><strong>Você diz:</strong></div>
-          <div class="msg-chat">Blablaaaa Bla</div>
-        </div>
-        <div class="message-item message-user">
-          <div class="msg-user"><strong>Você diz:</strong></div>
-          <div class="msg-chat">Bla blabla Ba</div>
-        </div>
-        <div class="message-item">
-          <div class="msg-user"><strong>Atendente diz:</strong></div>
-          <div class="msg-chat">KKKKKKKKKKK blabla?</div>
-        </div>
-        <div class="message-item">
-          <div class="msg-user"><strong>Atendente diz:</strong></div>
-          <div class="msg-chat">Blabla Blaaba </div>
-        </div>
+  <div id="chat-screen">
+    <header>
+      <h2>Atendimento on-line</h2>
+    </header>
+    <div class="messages-list">
+      <div class="message-item">
+        <div class="msg-user"><strong>Atendente diz:</strong></div>
+        <div class="msg-chat">Olá Sr. Blabla</div>
       </div>
-      <form id="form-chat-send" action="https://httpbin.org/post" method="post">
-        <input type="text" id="message" name="message" placeholder="Digite sua mensagem">
-        <button type="submit" id="submit-button">ENVIAR</button>
-      </form>
+      <div class="message-item">
+        <div class="msg-user"><strong>Atendente diz:</strong></div>
+        <div class="msg-chat">Blabla blabla blabla?</div>
+      </div>
+      <div class="message-item message-user">
+        <div class="msg-user"><strong>Você diz:</strong></div>
+        <div class="msg-chat">Blablaaaa Bla</div>
+      </div>
+      <div class="message-item message-user">
+        <div class="msg-user"><strong>Você diz:</strong></div>
+        <div class="msg-chat">Bla blabla Ba</div>
+      </div>
+      <div class="message-item">
+        <div class="msg-user"><strong>Atendente diz:</strong></div>
+        <div class="msg-chat">KKKKKKKKKKK blabla?</div>
+      </div>
+      <div class="message-item">
+        <div class="msg-user"><strong>Atendente diz:</strong></div>
+        <div class="msg-chat">Blabla Blaaba </div>
+      </div>
     </div>
+    <form id="form-chat-send" action="" method="post">
+      <input type="text" id="message" name="message" placeholder="Digite sua mensagem">
+      <button type="submit" id="submit-button">ENVIAR</button>
+    </form>
   </div>
 </main>
 <router-outlet />
