@@ -63,4 +63,4 @@ cd nome-do-repositorio/nome-da-pasta
 ## 👨‍💻 Em Andamento
 
 Este repositório está em constante atualização!
-Novos exercícios serão adicionados conforme avanços na matéria de front-end
+Novos exercícios serão adicionados conforme eu avanço na matéria de front-end!
