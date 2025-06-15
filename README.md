@@ -14,6 +14,7 @@ O nome da pasta indica o propósito ou funcionalidade principal daquele exercíc
 
 ```bash
 ├── chat-angualar/
+├── chat-react/
 ├── ex01-chat/
 ├── ex02-chat/
 └── ...
@@ -26,6 +27,10 @@ O nome da pasta indica o propósito ou funcionalidade principal daquele exercíc
 ### chat-angular
 
 Foi proposto que fosse feito uma página de um chat online (recriando os que foram criados nos dois primeiros exercícios) usando Angular
+
+### chat-react
+
+Foi proposto que fosse feito uma página de um chat online (com base nos exercícios anteriores) usando navegação entre telas usando React
 
 ### ex01-chat
 
@@ -43,6 +48,7 @@ Usando como base o projeto anterior, foi pedido que se adicionasse uma camada de
 - CSS3
 - JavaScript Vanilla
 - Angular
+- React
 
 ---
 
