@@ -30,7 +30,7 @@ Foi proposto que fosse feito uma página de um chat online (recriando os que for
 
 ### chat-react
 
-Foi proposto que fosse feito uma página de um chat online (com base nos exercícios anteriores) usando navegação entre telas usando React
+Foi proposto que fosse feito uma página de um chat online (com base nos exercício com JS) usando navegação entre telas usando React
 
 ### ex01-chat
 
