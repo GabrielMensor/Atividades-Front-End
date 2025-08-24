@@ -63,10 +63,3 @@ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio/nome-da-pasta
 ```
 3. Abra o arquivo index.html no seu navegador para visualizar o projeto.
-
----
-
-## 👨‍💻 Em Andamento
-
-Este repositório está em constante atualização!
-Novos exercícios serão adicionados conforme eu avanço na matéria de front-end!
