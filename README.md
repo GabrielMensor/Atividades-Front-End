@@ -56,10 +56,10 @@ Usando como base o projeto anterior, foi pedido que se adicionasse uma camada de
 
 1. Clone este repositório:
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/GabrielMensor/Atividades-Front-End.git
 ```
 2. Navegue até a pasta do exercício desejado:
 ```bash
-cd nome-do-repositorio/nome-da-pasta
-```
+cd Atividades-Front-End/nome-da-pasta-do-exercicio
+-do```
 3. Abra o arquivo index.html no seu navegador para visualizar o projeto.
