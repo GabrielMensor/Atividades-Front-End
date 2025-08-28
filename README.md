@@ -1,7 +1,7 @@
 # 🚀 Atividades de Front-end
 
 Bem-vindo ao meu repositório de **atividades de front-end**!  
-Aqui você encontrará uma coleção de pequenos projetos desenvolvidos com foco em **HTML**, **CSS**, **JavaScript** e/ou **Angular** organizados por pastas; que desenvolvo ao longo da 3ª fase de Emgenharia da Computação, na matéria de Front-End, na Unisatc.
+Aqui você encontrará uma coleção de pequenos projetos desenvolvidos com foco em **HTML**, **CSS**, **JavaScript**, **Angular** e/ou **React** organizados por pastas; que desenvolvo ao longo da 3ª fase de Emgenharia da Computação, na matéria de Front-End, na Unisatc.
 
 Este repositório é um espaço para **aprendizado**, **prática** e **evolução contínua** no desenvolvimento web.
 
@@ -17,7 +17,6 @@ O nome da pasta indica o propósito ou funcionalidade principal daquele exercíc
 ├── chat-react/
 ├── ex01-chat/
 ├── ex02-chat/
-└── ...
 ```
 
 ---
